@@ -1,0 +1,6 @@
+.env
+hadrian.duckdb
+__pycache__/
+*.pyc
+.venv/
+.idea/
