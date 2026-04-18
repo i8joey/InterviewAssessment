@@ -20,13 +20,14 @@ Python 3.11, Pandas, DuckDB, Streamlit, Plotly
 ## Environment Variables
 The following environment variables must be set before running:
 `NBA_API_KEY` - API Sports API key
-`KAGGLE_USERNAME` - Kaggle username
-`KAGGLE_API_KEY` - Kaggle API key
 
-These can be set in PowerShell:
+Set in PowerShell:
 $env:NBA_API_KEY = "your_key"
-$env:KAGGLE_USERNAME = "your_username"
-$env:KAGGLE_API_KEY = "your_key"
+
+Place kaggle.json in C:\Users\<username>\.kaggle\ for Windows or ~/.kaggle/ for Mac/Linux
+kaggle.json
+{"username": "your_username, "key": "your_kaggle_key"}
+
 
 ## Analysis
 1. Top 10 highest scoring games in the last decade (screenshots/Top10.png)
